@@ -4,7 +4,7 @@
 const needle = require('needle');
 
 // this is the ID for @TwitterDev
-const userId = 2244994945;
+const userId = 37659262;
 const url = `https://api.twitter.com/2/users/${userId}/followers`;
 const bearerToken = process.env.BEARER_TOKEN;
 
