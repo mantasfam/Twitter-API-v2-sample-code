@@ -25,7 +25,6 @@ const tweetIDs = "1278747501642657792,1275828087666679809"; // Edit the Tweet ID
 const params = "tweet.fields=lang,author_id&user.fields=created_at"; // Edit optional query parameters here
 
 const endpointURL = `https://api.twitter.com/2/tweets?ids=${tweetIDs}&${params}`;
-console.log("endpointURL", endpointURL);
 
 // this example uses PIN-based OAuth to authorize the user
 const requestTokenURL = "https://api.twitter.com/oauth/request_token?oauth_callback=oob";
